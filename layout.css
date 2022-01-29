@@ -1,0 +1,36 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+fieldset {
+    max-width: 355px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+legend {
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.section1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*padding-left: 150px;*/
+    padding: 0 25px 5px;
+}
+
+.section2 {
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: column;
+    /*padding-left: 150px;*/
+    /*padding: 0 25px 5px;*/
+}
