@@ -22,7 +22,7 @@
                     <input id="email" type="email">
                 </div>
                 <div class="section2">
-                    <div>
+                    <div class="section2Input">
                         <label for="status">Status</label>
                         <select name="" id="status">
                             <option value="student">Student</option>
@@ -30,39 +30,37 @@
                             <option value="guest">Guest</option>
                         </select>
                     </div>
-                    <div>
+                    <div class="section2Input">
                         <label for="input-date">Date</label>
                         <input id="input-date" type="date">
                     </div>
                 </div>
-                <div>
+                <div class="section3">
                     <p>Choose your favorite programming language:</p>
                     <label for="input-html">HTML</label>
                     <input id="input-html" type="radio" value="HTML">
-
                     <label for="input-css">CSS</label>
                     <input id="input-css" type="radio" value="CSS">
-
                     <label for="input-javascript">JavaScript</label>
                     <input id="input-javascript" type="radio" value="JavaScript">
                 </div>
-                <div>
+                <div class="section3Input">
                     <label for="comments">Comments</label>
-                    <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+                    <textarea name="comments" id="comments" cols="30" rows="3"></textarea>
                 </div>
-
-                <div>
-                    <label for="checkbox-newsletter">Sign up for newsletter</label>
-                    <input id="checkbox-newsletter" type="checkbox">
+                <div class="section4">
+                    <div>
+                        <input id="checkbox-newsletter" type="checkbox">
+                        <label for="checkbox-newsletter">Sign up for newsletter</label>
+                    </div>
+                    <div>
+                        <input id="checkbox-terms" type="checkbox">
+                        <label for="checkbox-terms">Agree to terms and conditions</label>
+                    </div>
                 </div>
-                <div>
-                    <label for="checkbox-terms">Agree to terms and conditions</label>
-                    <input id="checkbox-terms" type="checkbox">
+                <div class="submitContainer">
+                    <button class="buttonSubmit" type="submit">Submit</button>
                 </div>
-                <div>
-                    <button type="submit">Submit</button>
-                </div>
-
             </fieldset>
         </form>
     </body>
